@@ -6,5 +6,5 @@ void main()
     scanf("%c",&AL);
     printf("%d",AL);
     
-    //CodeUp#1039 (https://codeup.kr/problem.php?id=1039)
+    //CodeUp#1036 (https://codeup.kr/problem.php?id=1036)
 }
