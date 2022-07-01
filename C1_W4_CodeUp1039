@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void main()
+{
+    char AL;
+    scanf("%c",&AL);
+    printf("%d",AL);
+    
+    //CodeUp#1039 (https://codeup.kr/problem.php?id=1039)
+}
