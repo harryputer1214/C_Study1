@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void main() 
+{
+  float h=0.0;
+  float w=0.0;
+  float BMI=0.0;
+  printf("키(m),몸무게(kg): ");
+  scanf("%f, %f",&h,&w);
+  h-=0.1;
+  w+=5.0;
+  BMI=w/h*h;
+  printf("키: %f, 몸무게: %f, BMI: %f\n",h,w,BMI);
+  
+  //w6ss_FurtherDiscussion5 몸무게+5kg 키+0.1m 하고 BMI
+}
