@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main() {
+  int i,o,n,p,q,m;
+  for(i=1;i<=10;i++){
+    n=i;
+    printf("%d",n);
+      switch(i){
+       case 2:
+        printf("2다\n");
+      case 3:
+        printf("3이다\n");
+      case 4:
+        printf("4다\n");
+      }
+  }
+}
